@@ -11,6 +11,19 @@ Window {
     title: qsTr("ToolTip")
 
     Button {
+        id: btn
+        anchors {
+            left: parent.left
+            right: parent.right
+            verticalCenter: parent.verticalCenter
+        }
+        text: "Button"
+        WindowedTooltip {
+            text: btn.text
+        }
+    }
+
+    Button {
         id: btnA
         hoverEnabled: true
         anchors {

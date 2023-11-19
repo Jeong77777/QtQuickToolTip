@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>StandardToolTip.qml</file>
+        <file>WindowedTooltip.qml</file>
     </qresource>
 </RCC>
